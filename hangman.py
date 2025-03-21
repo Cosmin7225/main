@@ -1,4 +1,4 @@
- #joc spanzuratorea
+#joc spanzuratorea
 # M-as gandi la o lista de cuvinte definita din care sa alegem un cuvant aleaator
 # Pc-ul alege un cuvant iar jucatorul trebuie sa ghiceasaca literele care alcatuiesc cuvantul
 # Incercarile trebuie sa fie egale cu 6, deci trebuie o conditie (while) care verifica numarul de incercari iar la fiecare greseala nuamrul sa scada
