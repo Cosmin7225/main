@@ -1,0 +1,59 @@
+#Proiectul va fi structurat dupa cum urmeaza:
+#0  utilizeaza o constanta
+NO_LIVES = 10
+
+#1. o functie care va citi dintr-un fisier, al carui nume va fi furnizat de la tastatura, si care va intoarce o lista de cuvinte
+def read_all_reference_words():
+#   return reference_words
+    pass 
+
+#2. o functie care va selecta random un cuvant referinta din lista de cuvinte obtinute prin apelul read_all_reference_words()
+def get_reference_word(reference_words):
+#   return reference_word 
+    pass 
+  
+#3  o functie care va citi un caracter de la tastatura si care va intoarce caracterul si lista pozitiilor corecte gasite in cuvantul referinta 
+def get_input_indexes(reference_word):
+#   return character, list_of_indexes
+    pass 
+
+#4  o functie care seteaza (handle) cuvantul construit: 
+    #   functia va apela functia get_input_indexes(reference_word) si intoarce:
+    ##      -   un boolean (in functie de lista pozitiilor primita) 
+    ##      -   caracterul obtinut 
+    ##      -   cuvantul construit
+    #   daca lista obtinuta din apelul get_input_indexes este goala atunci lasa cuvantul construit neatins si seteaza boolean-ul la false
+    #   daca lista obtinuta contine un nr. de pozitii, plaseaza caracterul obtinut in cuvantul construit, in pozitiile adecvate  si 
+    ##      seteaza boolean-ul la true 
+def set_constructed_word(reference_word, constructed_word):
+#   character, list_of_indexes = get_input_indexes(reference_word)
+#   if len(list_of_indexes) == 0: return False, character, constructed_word
+#   place character to constructed_word in received positions
+#   return True, character, constructed_word  
+    pass 
+
+#5  functia hangman apeleaza repetitiv set_constructed_word si intoarce un boolean
+    #   true:   daca cele doua cuvinte, cel de referinta si cel construit, sunt identice 
+    #   false:  daca a fost consumat numarul de vieti 
+def hangman(reference_word):
+#   live_no = NO_LIVES
+#   #   init constructed_word 
+#   while(True)
+#       matching_flag, character, constructed_word = set_constructed_word(reference_word, constructed_word)
+#       if matching_flag :
+#           if constructed_word = reference_word: 
+#               return True
+#           continue
+#       live_no -= 1
+#       if live_no < = return False
+#       print constructed_word 
+    pass 
+
+
+#main 
+def main():
+    reference_words = read_all_reference_words()
+    reference_word = select_reference_word(reference_words)
+    result = hangman(reference_word)
+#   preatty print the result
+
